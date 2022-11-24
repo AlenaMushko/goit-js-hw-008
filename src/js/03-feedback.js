@@ -17,7 +17,7 @@ function onFormInput(e){
   formData[e.target.name] = e.target.value;
   console.log(formData);
   // зберігаємо його в сховище    JSON.stringify(formData)
-  localStorage.setItem(STORAGE_KEY, formData )
+  localStorage.setItem(STORAGE_KEY, formData)
 }
 
  function onFormSubmit(e){
